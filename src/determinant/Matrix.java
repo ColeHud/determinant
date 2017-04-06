@@ -147,6 +147,7 @@ public class Matrix
 						}
 					}
 					newMatY++;
+					newMatX = 0;//reset the x for the new row
 				}
 				
 				int newMatDeterminant = determinant(newMat);
