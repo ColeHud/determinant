@@ -165,5 +165,10 @@ public class Matrix
 			
 			return determinant;
 		}
+		else
+		{
+			System.out.println("Matrix didn't get classified in the determinant function");
+			return 666;
+		}
 	}
 }
